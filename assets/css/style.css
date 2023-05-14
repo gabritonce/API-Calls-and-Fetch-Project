@@ -1,0 +1,127 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+/* BACK OFFICE */
+
+header {
+    background-color: steelblue;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+header ul {
+    display: flex;
+
+}
+
+header ul li {
+    padding-left: 10px;
+    list-style: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+
+#product-form {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#label-name {
+    font-weight: bold;
+    color: steelblue;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+
+#name {
+    color: antiquewhite;
+    background-color: steelblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#label-description {
+    font-weight: bold;
+    color: steelblue;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+#description {
+    color: antiquewhite;
+    background-color: steelblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#label-brand {
+    font-weight: bold;
+    color: steelblue;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+#brand {
+    color: antiquewhite;
+    background-color: steelblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#label-imageUrl {
+    font-weight: bold;
+    color: steelblue;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#imageUrl {
+    color: antiquewhite;
+    background-color: steelblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+#label-price {
+    font-weight: bold;
+    color: steelblue;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#price {
+    color: antiquewhite;
+    background-color: steelblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.button-style {
+    color: antiquewhite;
+    background-color: steelblue;
+    margin-top: 20px;
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="back-office.html">Back-Office</a></li>
+
+
+        </ul>
+    </header>
+    <main>
+        <form onsubmit="return false" style="display: none;" id="product-form">
+            <label id="label-name" for="name">Nome:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label id="label-description" for="description">Descrizione:</label>
+            <br>
+            <textarea id="description" name="description" required></textarea>
+            <br>
+            <label id="label-brand" for="brand">Brand:</label>
+            <br>
+            <input type="text" id="brand" name="brand" required>
+            <br>
+            <label id="label-imageUrl" for="imageUrl">Image Url</label>
+            <br>
+            <input type="text" id="imageUrl" name="imageUrl" required>
+            <br>
+            <label id="label-price" for="price">Prezzo:</label>
+            <br>
+            <input type="number" id="price" name="price" step="0.01" required>
+            <br>
+            <button id="putBtn" onclick="onPutNewProduct()" class="button-style">Modifica Prodotto</button>
+            <button id="goBackBtn" onclick="exitEditMode()" class="button-style">Esci Dalla Modifica</button>
+
+        </form>
+
+        <div id="products-container" class="row"></div>
+    </main>
+</body>
+<script src="assets/homepagescript/homepagescript.js"></script>
+
+</html>
